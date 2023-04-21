@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(imagens/sala-vazia-com-cadeiras-e-mesas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+div#formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255 , .5);
+    width: 380px;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+div.campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form > div.campo > input[type=email] {
+    width: 310px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 0px #04040466;
+    margin-bottom: 20px;
+}
+
+form > div.campo > input[type=password] {
+    width: 310px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 0px #04040466;
+    margin-bottom: 50px;
+}
+
+form > input[type=submit] {
+    background-color: rgb(244, 8, 224);
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 20px 0px rgb(244, 8, 224);
+}
+
+form > input[type=submit]:hover {
+    cursor: pointer;
+    background-color: rgb(160, 30, 165);
+    transition: .5s;
+}
+
+#ilogin::placeholder {
+    color: black;
+    font-weight: bold;
+    padding: 0px 0px 0px 15px;
+}
+
+#isenha::placeholder {
+    color: black;
+    font-weight: bold;
+    padding: 0px 0px 0px 10px;
+}
+
+p {
+    text-align: center;
+    margin: 30px;
+    color: rgb(141, 141, 141);
+}
+
+div.links {
+    text-align: center;
+}
+
+form > a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+
+form > a:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 0px #04040466;
+}
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="formulario">
+        <h1>Sign In</h1>
+        <form action="login.php" method="post">
+            <div class="campo">
+                <input type="email" name="ilogin" id="ilogin" placeholder="username or email" required>
+            </div>
+            <div class="campo">
+                <input type="password" name="senha" id="isenha" placeholder="password" required>
+            </div>
+            <input type="submit" value="SIGN IN">
+            <p>Or login with</p>
+            <div class="links">
+                <a href="#"><img src="imagens/facebook.png" alt="logo do facebook"></a>
+                <a href="#"><img src="imagens/google1.png" alt="logo do google"></a>
+            </div>
+            <a id="sign-up" href="#">Sign Up</a>
+        </form>
+    </div>
+</body>
+</html>
